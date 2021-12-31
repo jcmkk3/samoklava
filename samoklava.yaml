@@ -32,6 +32,11 @@ points:
       #   rotate: 5
       key.padding: ky
       columns:
+        outer:
+          stagger: 0 ky
+          spread: kx
+          key:
+            column_net: P20
         pinky:
           stagger: 0 ky
           spread: kx
@@ -443,4 +448,3 @@ pcbs:
           layer: B.SilkS
           text: "samoklava v0.1\\nby soundmonster"
           justify: right mirror
-
